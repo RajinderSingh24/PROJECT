@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="track.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <!----Start hear nav-->
+    <div class="hero">
+        <nav>
+            <h2 class="logo" id="logo">W<span>o</span>rk<span>o</span>ut</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Workout Plan.html">Workout Plan</a></li>
+                <!-- <li><a href="#">Routes</a></li> -->
+                <li><a href="Diet Plan.html">Diet Plan</a></li>
+                <li><a href="About.html">About us</a></li>
+            </ul>
+            <a href="Login.html" class="btn">Login</a>
+        </nav>
+    </div>
+    <section id="home">
+        <h2>Achieve Your Fitness Goals!</h2>
+        <p>Track your workouts, monitor your nutrition, and visualize your progress.</p>
+    </section>
+
+    <section id="workouts">
+        <h2>Workouts</h2>
+        <form>
+            <label for="exercise">Exercise:</label>
+            <input type="text" id="exercise" name="exercise" required>
+
+            <label for="duration">Duration (minutes):</label>
+            <input type="number" id="duration" name="duration" required>
+
+            <button type="submit">Add Workout</button>
+        </form>
+
+        <table>
+            <caption>Workout History</caption>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Exercise</th>
+                    <th>Duration (minutes)</th>
+                </tr>
+            </thead>
+        </table>
+    </section>
+
+    <section id="nutrition">
+        <h2>Nutrition</h2>
+        <form>
+            <label for="food">Food Item:</label>
+            <input type="text" id="food" name="food" required>
+
+            <label for="calories">Calories:</label>
+            <input type="number" id="calories" name="calories" required>
+
+            <button type="submit">Add Nutrition Entry</button>
+        </form>
+
+        <table>
+            <caption>Nutrition History</caption>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Food Item</th>
+                    <th>Calories</th>
+                </tr>
+            </thead>
+        </table>
+    </section>
+
+    <section id="progress">
+        <h2>Progress</h2>
+        <form>
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" name="weight" required>
+
+            <button type="submit">Update Weight</button>
+        </form>
+
+        <p>Your current weight: <span id="currentWeight">N/A</span> kg</p>
+    </section>
+    <footer>
+        <p class="foot">W<span>o</span>rk<span>o</span>ut</p>
+        <p class="foot">SET G<SPAN>O</SPAN>ALS.
+
+            L<SPAN>O</SPAN>G W<SPAN>O</SPAN>RK<SPAN>O</SPAN>UTS.
+                            
+            STAY <SPAN>O</SPAN>N TRACK.</p>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+        </div>
+        <p class="last">CopyRight By 2110389611@gmail.com</p>
+    </footer>
+</body>
+</html>
